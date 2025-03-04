@@ -40,7 +40,7 @@
 
     <!-- Include Submarines -->
     <include>
-      <uri>file://models/submarine</uri>
+      <uri>file://models/glider_slocum</uri>
     </include>
 
   </world>
