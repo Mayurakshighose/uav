@@ -1,11 +1,13 @@
 <?xml version="1.0" ?>
-<sdf version="1.6">
+<sdf version="1.7">
   <world name="buoyancy">
 
     <physics name="1ms" type="ode">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
+      <!--<gravity>0 0 -9.81</gravity>-->
     </physics>
+
     <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
