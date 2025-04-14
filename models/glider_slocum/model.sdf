@@ -175,5 +175,6 @@
       <link_name>propeller</link_name>
       <cp>-0.35 0 0</cp>
     </plugin>
+  <plugin name="keyboard_control" filename="libkeyboard_control.so"/>
   </model>
 </sdf>
